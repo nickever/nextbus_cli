@@ -8,7 +8,6 @@ line = "line string here"
 stop_id = "stop_id string here"
 
 which_bus = [destination, line, stop_id]
-which_bus = ["Finsbury Park Station", "W3", "490014509S"]  # TODO Delete me before commit
 
 
 # Enter TFL API auth credentials here.
@@ -21,5 +20,6 @@ tfl_key = "application key string here"
 # From twilio.com/console (free registration)
 twilio_sid = "application id string here"
 twilio_auth_token = "application key string here"
+twilio_number = "twilio 'from' phone number here"
 
 phone_numbers = {"name_string": "phone number"}
